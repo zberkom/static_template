@@ -12,9 +12,9 @@ It's ~~stolen from~~ inspired by [Heroku's excellent template](https://devcenter
 1. Fork this repository, and name your fork after your project.
 2. Clone your fork into your machine. (`git clone <your-ssh-url>`)
 3. `cd your_project_name`.
-4. Run `bundle install`.
-5. To start the local server, run `rackup -p 3000`. This will start the server
-on port 3000 of your machine.
+4. Run `bundle install`. You only need to do this once.
+5. To start the local server, run `rackup -p 3000` from the project directory. 
+This will start the server on port 3000 of your machine.
 
 If you are running this on your local machine, you can then visit
 <http://localhost:3000> in your browser to see your code.
