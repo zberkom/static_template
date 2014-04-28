@@ -1,6 +1,40 @@
 <html>
-  <body>
-    <h1>Your server is running!</h1>
-    <p>Now replace this with something useful.</p>
+  <title>Treasure Hunt</title>
+    <head> 
+      <link rel="stylesheet" type="text/css" href="/css/bootstrap/bootstrap.css"/>
+      <link rel="stylesheet" href="/css/style_sheet.css"/>
+      <link rel="stylesheet" type="text/css" href="/js/bootstrap.js"/>
+      <script language="JavaScript" type="text/javascript">
+        function checkAnswer()
+        {
+          var x=document.forms["Answer"]["hello"].value
+          if (x=="Peyton Randolf")
+          {
+            alert("You are Right!")
+            return true;
+          }else{
+            alert("Wrong! Try Again!")
+            return false;
+          }
+        }
+      </script>
+    </head>
+  <body class="body">
+    <div class="container">
+      <h1>Welcome to the Hunt</h1>
+      <p>Answer the Question below to enter the site.</p>
+      <p>Who was the First President of the United States?</p>
+      <form class="form-inline" name="Answer" action="demo_form.asp" onsubmit="return checkAnswer()" method="post">
+        <div class="form-group">
+          <input type="text" name="hello" class="form-control text-box" placeholder="Answer">
+        </div>
+        <a href="Treasure_hunt.html"><button type="submit" class="btn btn-success">Submit</button></a>
+      </form>
+    </div> 
   </body>
-</html>
+</html> 
+
+
+
+
+
