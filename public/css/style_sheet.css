@@ -38,9 +38,26 @@ border-color: #c5a193;
 	background-image: url(http://www.spike-team.com/wp-content/uploads/2013/04/declaration-of-Independence.jpg);
 }
 .background{
-  background-image:url("images/bg.jpg");
+  background-image:url(/images/bg.jpg);
 }
 
-
-
-
+.whole{
+	margin:auto;
+	width: 70%;
+	background-color: #846b58;
+	height: 1000px;
+	padding: 15px;
+}
+/* Right Column Styles*/
+.right{
+	width: 20%;
+	background-color:#DBDBDE;
+	float: right;
+	height: 900px;
+}
+.left{
+	width: 20%;
+	background-color:#DBDBDE;
+	float: left;
+	height: 900px;
+}
