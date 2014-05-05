@@ -14,7 +14,8 @@ h1 {
 	
 	
 }
- p {
+/* Makes color of text for certain paragraphs in index.html*/
+ .color{
 	color: #c5a193;
 	font-size: 20px;
 }
@@ -53,7 +54,7 @@ border-color: #c5a193;
 }
 .left{
 	width: 20%;
-	background-color:#fdd480;
+	background-color:#cdb791;
 	float: left;
 	height: 800px;
 	border-radius: 5px;
