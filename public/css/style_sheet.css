@@ -67,9 +67,9 @@ border-color: #c5a193;
 	height: 800px;
 	background-color:white;
 	padding: 10px;
-	text-align: center;
 	border-radius: 5px;
-	background-image: url(http://www.fleshandstonemusic.com/fleshandstone/Content/Images/old_paper.png);
+	background-color: white;
+	padding: 20px;
 
 }
 .top{
@@ -89,9 +89,22 @@ border-color: #c5a193;
 	font-style: cursive;
 	color:black;
 
+} h2{
+	text-align: center;
 }
 
-
+p {
+	font-size: 20px;
+	font-family: Zapf Chancery, cursive;
+	font-weight: bold;
+	color:black;
+}
+li{
+	font-size: 20px;
+	font-family: Zapf Chancery, cursive;
+	font-weight: bold;
+	color:black;
+}
 
 
 
