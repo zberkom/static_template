@@ -1,9 +1,23 @@
 <html>
 	<title>Treasure Hunt</title>
 		<head>
-			  <link rel="stylesheet" type="text/css" href="/css/bootstrap/bootstrap.css"/>
+			 <link rel="stylesheet" type="text/css" href="/css/bootstrap/bootstrap.css"/>
     		<link rel="stylesheet" href="/css/style_sheet.css"/>
     		<link rel="stylesheet" type="text/javascript" href="/js/bootstrap.js"/>
+    		<script language="JavaScript" type="text/javascript">
+    		function checkAnswer()
+        	{	
+          var x=document.forms["Answer"]["hello"].value
+          if (x=="William Bradford and Edward Winslow")
+          {
+            alert("You are Right!")
+            return true;
+          }else{
+            alert("Wrong! Try Again!")
+            return false;
+          }
+        }
+      </script>
 		</head>
 		<body class="background">
 			<div class="top"><!-- Top banner div-->
@@ -14,7 +28,15 @@
 
 				</div>
 				<div class="center">
-					<h2 class="title">You Have Sucessfully Entered</h2>
+					<h2 class="title">Wonderful!</h2>
+					<p>Good! You have filled in for my failing memory, but as I was saying the Mayflower Compact has been hidden along with many Indian Treasures. Your main quest however is to retrieve the Mayflower Compact. It might be an invaluable clue. There were two men who hid the Mayflower Compact pretending it had been lost in order that it might be added to something, I cannot say, but I do not remember who they were. Please remind me.
+					</p>
+					<form class="form-inline" name="Answer" action="prototype.html" onsubmit="return checkAnswer()" method="get">
+        				<div class="form-group">
+          					<input type="text" name="hello" class="form-control text-box" placeholder="Answer">
+        				</div>
+        				<a href="index.html"><button type="submit" class="btn btn-success">Submit</button></a>
+     				</form>
 				</div>
 			</div>	
 		</body>
