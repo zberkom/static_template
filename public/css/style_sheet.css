@@ -63,13 +63,14 @@ border-color: #c5a193;
 	float: left;
 	margin-left:20px;
 	margin-right:20px;
-	width:75%;
+	width:95%;
 	height: 800px;
 	background-color:white;
 	padding: 10px;
 	border-radius: 5px;
 	background-color: white;
 	padding: 20px;
+	text-align: center;
 
 }
 .top{
