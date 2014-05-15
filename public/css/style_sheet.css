@@ -4,13 +4,15 @@ h1 {
   font-size:60px;
   padding: 0;
   margin: 0;
-  font-family: windlass;
+  font-family: Zapf Chancery, cursive;
 }
 .body {
   background-image: url(http://upload.wikimedia.org/wikipedia/commons/9/9d/Scene_at_the_Signing_of_the_Constitution_of_the_United_States.jpg); 
 }
 .container{
 	text-align: center;
+	padding: 10px;
+
 	
 	
 }
@@ -19,31 +21,36 @@ h1 {
 	color: #c5a193;
 	font-size: 20px;
 }
-
+/* Text box used for most answer write in areas*/
 .form {
 	width: 600px;
 	margin: 0 auto;
 }
+/* Class that governs the width of the form*/
 .form-inline input.text-box{
 	width: 500px
 }
+/* Changing the bootstrap colors for the submit button*/
 .btn-success {
 color: #fff;
 background-color: #c5a193;
 border-color: #c5a193;
 }
+/* Changing the color of the hover on the submit button*/
 .btn-success:hover{
 	color: #fff;
 	background-color: #846b58;
 	border-color: #846b58;
 }
+/* background-picture for the opening page*/
 .picture{
 	background-image: url(http://www.spike-team.com/wp-content/uploads/2013/04/declaration-of-Independence.jpg);
 }
+/* background image for the main website*/
 .background{
   background-image:url(/images/bg.jpg);
 }
-
+/* A rap around div of a different color around the div with the text*/
 .whole{
 	margin:auto;
 	width: 70%;
@@ -52,6 +59,7 @@ border-color: #c5a193;
 	padding: 30px;
 	border-radius: 5px;
 }
+/* Currently unused div styles*/
 .left{
 	width: 20%;
 	background-color:#cdb791;
@@ -59,6 +67,7 @@ border-color: #c5a193;
 	height: 800px;
 	border-radius: 5px;
 }
+/* Styles for main text div in the center*/
 .center{
 	float: left;
 	margin-left:20px;
@@ -71,8 +80,9 @@ border-color: #c5a193;
 	background-color: white;
 	padding: 20px;
 	text-align: center;
-
 }
+
+/* Styles for navbar*/
 .top{
 	text-align: center;
 	width: 100%;
